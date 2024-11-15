@@ -3,7 +3,18 @@ import React from "react";
 
 // funcion
 const MyComponent = () => {
-    return <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo pariatur non, et porro aperiam quisquam dolorum tempora omnis aliquid reprehenderit quaerat beatae vitae, ut nostrum, labore natus vel quos temporibus?</p>
+    return(
+        <div className="mi-componente">
+            <hr />
+            <h1>Componente creado</h1>
+            <p>Primer componente</p>
+            <ul>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue</li>
+            </ul>
+        </div>
+    )
     
 }
 

@@ -12,9 +12,6 @@ function App() {
         </p>
         {/* Primer componente */}
         <MyComponent />
-        <MyComponent />
-        <MyComponent />
-        <MyComponent />
       </header>
 
 

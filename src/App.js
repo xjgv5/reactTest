@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyComponent from './MyComponent';
+import { Componente2 } from './Componente2';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         {/* Primer componente */}
+        <Componente2 />
         <MyComponent />
       </header>
 

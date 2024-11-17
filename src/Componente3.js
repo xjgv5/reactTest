@@ -1,8 +1,7 @@
 import React from 'react'
+import PropTypes from 'react'
 
 export const Componente3 = ({nombre, apellidos, ficha}) => {
-
-    // console.log(props)
 
   return (
     <div>
@@ -17,6 +16,12 @@ export const Componente3 = ({nombre, apellidos, ficha}) => {
         </ul>
     </div>
   )
+}
+
+Componente3.propTypes = {
+    nombre: PropTypes.string.isRequired,
+    apellidos: PropTypes.string.isRequired,
+    ficha: PropTypes.object
 }
 
 export default Componente3

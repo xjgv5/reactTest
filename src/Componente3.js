@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'react'
 
-export const Componente3 = ({nombre, apellidos, ficha}) => {
+export const Componente3 = ({nombre, apellidos}) => {
 
   return (
     <div>
@@ -10,18 +10,21 @@ export const Componente3 = ({nombre, apellidos, ficha}) => {
         <ul>
             <li>{nombre}</li>
             <li>{apellidos}</li>
-            <li>{ficha.estado}</li>
-            <li>{ficha.grupo}</li>
-            <li>{ficha.alergias}</li>
+
         </ul>
     </div>
   )
 }
 
 Componente3.propTypes = {
-    nombre: PropTypes.string.isRequired,
-    apellidos: PropTypes.string.isRequired,
+    nombre: PropTypes.string,
+    apellidos: PropTypes.string,
     ficha: PropTypes.object
+}
+
+Componente3.defaultProps = {
+    nombre : "John",
+    apellidos: "Doe"
 }
 
 export default Componente3

@@ -20,9 +20,7 @@ function App() {
         </p>
         
         <Componente3 
-          nombre="Xavier" 
-          apellidos="Gomez"
-          ficha={ficha_medica}/>
+          />
         <Componente2 />
         <MyComponent />
         

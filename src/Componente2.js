@@ -24,3 +24,5 @@ export const Componente2 = () => {
     </div>
   )
 }
+
+export default Componente2

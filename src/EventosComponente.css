@@ -16,9 +16,18 @@
     transition: all 300ms ease;
     cursor: pointer;
     display: block;
+    margin-bottom: 20px;
 }
 
 .clickBtn:hover {
     background-color: #61DAFB;
     color: #282C34;
+}
+
+#caja {
+    height: 200px;
+    width: 200px;
+    background-color: #61DAFB;
+    color: #282C34;
+    text-align: center;
 }

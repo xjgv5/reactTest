@@ -1,0 +1,16 @@
+.clickBtn {
+    border: 4px solid #61DAFB;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.clickBtn:hover {
+    background-color: #61DAFB;
+    color: #282C34;
+}

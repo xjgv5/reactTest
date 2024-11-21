@@ -3,6 +3,7 @@ import './App.css';
 import MyComponent from './MyComponent';
 import Componente2 from './Componente2';
 import Componente3 from './Componente3';
+import { EventosComponentes } from './EventosComponentes';
 
 function App() {
   const ficha_medica = {
@@ -19,8 +20,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         
-        <Componente3 
-          />
+        <EventosComponentes />
+        <Componente3 />
         <Componente2 />
         <MyComponent />
         
